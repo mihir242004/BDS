@@ -1,0 +1,138 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #696666; /* Soft Grey Background */
+    color: #3e3d3d; /* Dark Grey Text for readability */
+}
+
+header {
+    background-color: #87CEEB; /* Light Sky Blue */
+    color: #ffffff; /* White Text */
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: #ffffff;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+h1, h2, h3 {
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    color: #6495ED; /* Soft Blue for Headings */
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+/* Form Styling */
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #F5F5F5; /* Soft White Background for Forms */
+    border: 1px solid #E5E5E5; /* Light Grey Border */
+    border-radius: 8px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea,
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #E5E5E5; /* Light Grey Border */
+    border-radius: 4px;
+}
+
+button {
+    background-color: #8BC34A; /* Mint Green */
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #7CB342; /* Darker Mint Green */
+}
+
+/* Map Styling */
+#map {
+    height: 400px;
+    margin-bottom: 20px;
+    background-color: #F5F5F5; /* Soft White Background for Map */
+    border: 2px solid #6495ED; /* Soft Blue Border */
+}
+
+/* List Styling */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background: #F5F5F5; /* Soft White Background for List Items */
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #E5E5E5; /* Light Grey Border */
+    border-radius: 4px;
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #6495ED; /* Soft Blue */
+    color: #ffffff; /* White Text */
+}
+
+/* Button Styling */
+.btn-primary {
+    background-color: #6495ED; /* Soft Blue */
+    color: #ffffff; /* White Text */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.btn-primary:hover {
+    background-color: #4682B4; /* Darker Soft Blue */
+}
+
+/* Success Indicator */
+.success {
+    color: #8BC34A; /* Mint Green for Success */
+}
